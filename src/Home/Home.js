@@ -10,15 +10,25 @@ export const Home = () => {
         {img === "img1" && (
           <div className='sliding-img img1'>
             <h2 className='slogan'>
-              preStore helps Swimmers and Triathletes swim better and achieve
-              their goals.
+            Exciting courses are waiting for you!!<br/>
+            What are you waiting for?
             </h2>
             <Link to='/products'>
-              <button className='btn-main btn'>Shop Now</button>
+              <button className='btn-main btn'>Enroll Now</button>
             </Link>
           </div>
         )}
-        {img === "img2" && <div className='sliding-img img2'></div>}
+        {img === "img2" && ( 
+        <div className='sliding-img img2'>
+           <h2 className='slogan'>
+            Get the modern tech across your brain,<br/>
+            Explore series of blogs and articles here!
+            </h2>
+            <Link to='/products'>
+              <button className='btn-main btn'>Read Now</button>
+            </Link>
+          </div>
+        )}
         <button
           style={
             img === "img1"
@@ -39,7 +49,7 @@ export const Home = () => {
         ></button>
       </div>
 
-      <h2 className='center-txt'>Content</h2>
+      <h2 className='center-txt'>Explore More!!</h2>
       <div className='categories-home'>
         <Link to='/'>
           <div className='card-category cat-img1'>
@@ -55,9 +65,9 @@ export const Home = () => {
 
       <footer className='main-footer'>
         <p>
-          © | 2021 | <span className='pink-txt'>preStore</span>
+          © | 2021 | <span className='pink-txt'>eduKit</span>
         </p>
-        <p className='pink-txt'>preStore by preCodes</p>
+        <p className='pink-txt'>eduKit by Dark Coders</p>
 
         <ul className='footer-list'>
           <li>

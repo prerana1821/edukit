@@ -14,37 +14,15 @@ export const Header = () => {
         <nav className='navbar'>
           <div className='logo'>
             <img
-              src='https://prekit.netlify.app/images/preCodes.png'
+              src="https://w7.pngwing.com/pngs/515/606/png-transparent-life-insurance-higher-education-school-course-company-life-purple-angle-violet.png"
               alt='Logo'
             />
             <Link to='/'>
-              <p className='logo-txt'>preTube</p>
+              <p className='logo-txt'>eduKit</p>
             </Link>
           </div>
           <ul className={toggle ? "nav-menu" : "nav-menu active"}>
-            <li className='nav-item'>
-              <NavLink
-                to='/'
-                end
-                activeStyle={{
-                  color: "var(--dk-pink)",
-                }}
-                className='nav-link'
-              >
-                Home
-              </NavLink>
-            </li>
-            <li className='nav-item'>
-              <NavLink
-                className='nav-link'
-                activeStyle={{
-                  color: "var(--dk-pink)",
-                }}
-                to='/courses'
-              >
-                Courses
-              </NavLink>
-            </li>
+             
             <div className='search'>
               <div className='search-input'>
                 <input
@@ -89,6 +67,7 @@ export const Header = () => {
                 PlayLists
               </NavLink>
             </li>
+            
             <li className='nav-item'>
               <NavLink
                 className='nav-link'
