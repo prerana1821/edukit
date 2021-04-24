@@ -22,6 +22,29 @@ export const Header = () => {
             </Link>
           </div>
           <ul className={toggle ? "nav-menu" : "nav-menu active"}>
+            <li className='nav-item'>
+              <NavLink
+                to='/'
+                end
+                activeStyle={{
+                  color: "var(--dk-pink)",
+                }}
+                className='nav-link'
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink
+                className='nav-link'
+                activeStyle={{
+                  color: "var(--dk-pink)",
+                }}
+                to='/courses'
+              >
+                Courses
+              </NavLink>
+            </li>
             <div className='search'>
               <div className='search-input'>
                 <input
@@ -110,6 +133,17 @@ export const Header = () => {
                 }}
               >
                 Watch Later
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink
+                className='nav-link'
+                to='/quizes'
+                activeStyle={{
+                  color: "var(--dk-pink)",
+                }}
+              >
+                Quiz
               </NavLink>
             </li>
           </ul>
