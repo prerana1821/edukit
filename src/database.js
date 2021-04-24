@@ -361,7 +361,7 @@ export const data = [
     id: "kxBWcPJfo",
     url: "https://www.youtube.com/embed/kxBWcPJfo?mute=0",
     thumbnail:
-      "https://i.ytimg.com/vi/E74_WZpjeKA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDuUkgjL6lWTX-rHqixEagLU0eV-w",
+      "https://i.ytimg.com/vi/V-kxBWcPJfo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDQj5I2m5t9na2wy2lF8ZvT5EwRAQ",
     name: "Vue JS-The Composition API (part 1)",
     date: "14 Dec 2020",
     category: "VueJS",
@@ -456,6 +456,54 @@ export const data = [
     date: "14 Feb 2020",
     category: "Laravel 6",
   },
+  {
+    id: "kdXa4J_lKcY",
+    url: "https://www.youtube.com/embed/kdXa4J_lKcY?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/an_webp/kdXa4J_lKcY/mqdefault_6s.webp?du=3000&sqp=CMjJkYQG&rs=AOn4CLA-KEmbMRCMpQhJ1YTx2HO7nBcaMQ",
+    name: "TOP 10 MOTIVATIONAL STORIES - By Sandeep Maheshwari | Compilation of Best Stories in Hindi",
+    date: "21 Jan 2021",
+    category: "Motivational",
+  },
+  {
+    id: "8bQZewxW440",
+    url: "https://www.youtube.com/embed/8bQZewxW440?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/8bQZewxW440/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDnup_ECUbNCqlCnpSMgywLi66TQ",
+    name: "Proven Methods of Success | Mind Blowing Stories 🤯| Dr Vivek Bindra",
+    date: "4 Apr 2021",
+    category: "Motivational",
+  },
 
+  {
+    id: "96iaZxKRmKg",
+    url: "https://www.youtube.com/embed/96iaZxKRmKg?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/96iaZxKRmKg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCgp7_musGBwRdU4oNsBPplPfPvNQ",
+    name: "LISTEN TO THIS EVERY NIGHT Before You Sleep | Peaceful Night Affirmations By Sandeep Maheshwari",
+    date: "14 Feb 2020",
+    category: "Motivational",
+  },
+  {
+    id: "RwxC5J8LI4Q",
+    url: "https://www.youtube.com/embed/RwxC5J8LI4Q?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/an_webp/RwxC5J8LI4Q/mqdefault_6s.webp?du=3000&sqp=CITHkYQG&rs=AOn4CLCCCWt3Lq_XNCk8Ks0N9cON0nIXNg",
+    name: "BEST MOTIVATIONAL VIDEO For Students - By Sandeep Maheshwari I POWER OF FOCUS",
+    date: "2 Apr 2015",
+    category: "Motivational",
+  },
+
+  {
+    id: "AwRfvtCpdiQ",
+    url: "https://www.youtube.com/embed/AwRfvtCpdiQ?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/AwRfvtCpdiQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD3hzRBGLogH0x1O513HnjLywRtSA",
+    name: "Don't Waste Your Time - By Sandeep Maheshwari I Hindi",
+    date: "16 Jan 2019",
+    category: "Motivational",
+  },
+
+  
   
 ];
