@@ -58,6 +58,18 @@ export const Header = () => {
             </div>
             <li className='nav-item'>
               <NavLink
+                to='/'
+                end
+                activeStyle={{
+                  color: "var(--dk-pink)",
+                }}
+                className='nav-link'
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink
                 className='nav-link'
                 activeStyle={{
                   color: "var(--dk-pink)",
