@@ -495,6 +495,43 @@ export const data = [
   },
 
   {
+    id: "R8OFOURSZZA",
+    url: "https://www.youtube.com/embed/R8OFOURSZZA?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/R8OFOURSZZA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCGOlAiTBKdlnD6nlgfELGTYeRdHw",
+    name: "Addiction To Education (पढ़ाई की लत) By Sandeep Maheshwariwc",
+    date: "31 Oct 2018",
+    category: "Motivational",
+  },
+
+  {
+    id: "MBOdc4a8S0c",
+    url: "https://www.youtube.com/embed/MBOdc4a8S0c?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/an_webp/MBOdc4a8S0c/mqdefault_6s.webp?du=3000&sqp=CIm_kYQG&rs=AOn4CLDZ7ZzT0rpIti_jNRL-TagjQ9Lqmw",
+    name: "4 Rules to SUCCESS by Dr APJ ABDUL KALAM | Hindi Motivational Video | 4 Principles for STUDENTS",
+    date: "22 Apr 2021",
+    category: "Motivational",
+  },
+  {
+    id: "LTGH1ZnZ_08",
+    url: "https://www.youtube.com/embed/LTGH1ZnZ_08?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/LTGH1ZnZ_08/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDreFRmLHC1kMFW-5XO0p1hVC3TjQ",
+    name: "SABSE BADA MOTIVATION - By Sandeep Maheshwari",
+    date: "16 Jan 2019",
+    category: "Motivational",
+  },
+  {
+    id: "t1XCzWlYWeA",
+    url: "https://www.youtube.com/embed/AwRfvtCpdiQ?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/t1XCzWlYWeA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATpkpXjVEmIUTpjfvgpi2Yk0or7A",
+    name: "IT WILL GIVE YOU GOOSEBUMPS - Elon musk Motivational video",
+    date: "5 Feb 2021",
+    category: "Motivational",
+  },
+  {
     id: "AwRfvtCpdiQ",
     url: "https://www.youtube.com/embed/AwRfvtCpdiQ?mute=0",
     thumbnail:
@@ -504,6 +541,32 @@ export const data = [
     category: "Motivational",
   },
 
-  
-  
+  {
+    id: "Dws4-ZhcutU",
+    url: "https://www.youtube.com/embed/Dws4-ZhcutU?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/Dws4-ZhcutU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7q6pa9SBRzcTl6Et6_UBI6GlHHA",
+    name: "BELIEVE IN YOURSELF With Sandeep Maheshwari",
+    date: "30 Mar 2021",
+    category: "Motivational",
+  },
+  {
+    id: "WFjDacvpFaY",
+    url: "https://www.youtube.com/embed/WFjDacvpFaY?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/WFjDacvpFaY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCh3eNRyCI7PMtZOyzySQ3d4v8NZg",
+    name: "Akshay Kumar Best Motivational Speech for Students (ft. Akshay Kumar) | Akshay Kumar Motivation",
+    date: "11 Oct 2020",
+    category: "Motivational",
+  },
+  {
+    id: "PgluKyEwuoE",
+    url: "https://www.youtube.com/embed/PgluKyEwuoE?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/PgluKyEwuoE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBs7xGeetuUG9_yHtxDpezzFL8g9g",
+    name: "Khud Ko Sahi Direction Dena Seekho - By Sandeep Maheshwari",
+    date: "9 Aug 2018",
+    category: "Motivational",
+  },
+
 ];
