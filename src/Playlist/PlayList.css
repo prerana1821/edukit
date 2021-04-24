@@ -1,0 +1,28 @@
+.input-txt-error {
+  padding: 0.7rem 2rem;
+}
+
+.btn {
+  padding: 0.45rem 1rem;
+}
+
+.create-playlist {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.playlist-info {
+  display: flex;
+  margin: 0.5rem 0;
+  gap: 3rem;
+}
+
+.showcase-playlist {
+  margin: 1rem 2rem;
+}
+
+.playlist-details {
+  display: flex;
+  gap: 2rem;
+}

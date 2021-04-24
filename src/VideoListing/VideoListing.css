@@ -1,0 +1,102 @@
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 5rem;
+  justify-content: center;
+  margin: 3rem 0;
+  align-items: center;
+}
+
+.card {
+  max-width: 375px;
+  margin: 0;
+  text-align: left;
+}
+
+.card:hover {
+  box-shadow: var(--primary-box-shadow);
+}
+
+.card > p {
+  font-size: 1rem;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.choose-playlist {
+  flex: 1;
+}
+
+.choose-playlist > select {
+  margin: 0 1rem;
+  padding: 0.3rem;
+  font-size: medium;
+}
+
+.btn-card-actions {
+  cursor: pointer;
+  border: none;
+  margin: 0 1rem;
+  outline: var(--white-color);
+  background: none;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto 1rem;
+  width: 84%;
+}
+
+.clr-search {
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  background: no-repeat;
+  background-color: #fff;
+  box-shadow: none;
+  border: 2px solid var(--dk-pink);
+  color: var(--dk-pink);
+}
+
+.categories {
+  display: flex;
+}
+
+.categories > .category {
+  padding: 0.7rem 1.2rem;
+  font-size: inherit;
+  color: var(--dk-pink);
+  background-color: var(--tertiary-color);
+  border-radius: 1.5rem;
+  margin: 0.5rem;
+  outline: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.av-pink {
+  background-color: var(--tertiary-color);
+  color: var(--dk-pink);
+}
+
+.avatar {
+  font-size: 1rem;
+  box-shadow: var(--secondary-box-shadow);
+}
+
+.btn-latest {
+  font-size: 1.3rem;
+  padding: 0.8rem 1rem;
+  color: var(--dk-pink);
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}

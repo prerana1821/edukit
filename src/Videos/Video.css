@@ -1,0 +1,68 @@
+.video-notes {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.video {
+  width: 60%;
+}
+
+.notes {
+  width: 40%;
+}
+
+.input-notes {
+  width: 80%;
+  height: 75%;
+  padding: 1rem;
+  margin: 0 auto 2rem;
+  border: 2px solid var(--lt-pink);
+  outline: var(--lt-pink);
+  border-radius: 0.5rem;
+}
+
+.video-description {
+  width: 54%;
+  margin: 0 5rem 3rem;
+  border-top: 2px solid var(--dk-pink);
+  text-align: initial;
+}
+
+::placeholder {
+  font-family: "Varela Round", sans-serif;
+}
+
+.video-desc-center {
+  text-align: initial;
+  margin: 0 auto 2rem;
+  width: 54%;
+  border-top: 2px solid var(--dk-pink);
+}
+
+.video-desc-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-desc-actions {
+  display: flex;
+  align-items: center;
+}
+
+.video-note-actions {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.display-notes {
+  width: 84%;
+  outline: var(--lt-pink);
+  margin: 0 auto 2rem;
+  text-align: initial;
+  border: 2px solid var(--lt-pink);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}

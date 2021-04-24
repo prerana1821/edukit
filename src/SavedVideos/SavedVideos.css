@@ -1,0 +1,22 @@
+.show-videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin: 2rem;
+}
+
+.empty-card {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.hr {
+  height: 2px;
+  background-color: var(--dk-pink);
+  border: none;
+}
+
+.mg-1 {
+  margin: 1rem 0;
+}
