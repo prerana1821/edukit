@@ -131,7 +131,7 @@ export default function AngularQuiz() {
             You scored {score} out of {questions.length}
           </div>
           <div className='score'>
-            <a href='' className='bt'>
+            <a href='https://certificate-angular.omjadhav3714.repl.co/' className='bt'>
               Get Certificate
             </a>
           </div>

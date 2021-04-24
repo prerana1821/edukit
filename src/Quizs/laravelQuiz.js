@@ -132,7 +132,7 @@ export default function LaravelQuiz() {
             You scored {score} out of {questions.length}
           </div>
           <div className='score'>
-            <a href='' className='bt'>
+            <a href='https://certificate-laravel.omjadhav3714.repl.co/' className='bt'>
               Get Certificate
             </a>
           </div>

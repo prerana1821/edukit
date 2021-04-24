@@ -128,7 +128,7 @@ export default function ReactQuiz() {
             You scored {score} out of {questions.length}
           </div>
           <div className='score'>
-            <a href='' className='bt'>
+            <a href='https://certificate-react.omjadhav3714.repl.co/' className='bt'>
               Get Certificate
             </a>
           </div>

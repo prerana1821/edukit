@@ -135,7 +135,7 @@ export default function FlutterQuiz() {
               You scored {score} out of {questions.length}
             </div>
             <div className='score'>
-              <a href='' className='bt'>
+              <a href='https://certificate-flutter.omjadhav3714.repl.co/' className='bt'>
                 Get Certificate
               </a>
             </div>
