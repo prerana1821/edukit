@@ -1,5 +1,6 @@
 .banner {
   text-align: center;
+  color: #ffffff;
 }
 
 .sliding-img {
@@ -12,14 +13,14 @@
 }
 
 .img1 {
-  background: url(../images/sliding-img-2.jpg);
+  background: url(../images/img1.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .img2 {
-  background: url(../images/sliding-img-1.jpg);
+  background: url(../images/img2.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -87,7 +88,7 @@
   border-radius: 1rem;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;     
 }
 
 .home {
