@@ -10,23 +10,29 @@ export const Home = () => {
         {img === "img1" && (
           <div className='sliding-img img1'>
             <h2 className='slogan'>
-            Exciting courses are waiting for you!!<br/>
-            What are you waiting for?
+              Exciting courses are waiting for you!!
+              <br />
+              What are you waiting for?
             </h2>
             <Link to='/courses'>
               <button className='btn-main btn'>Enroll Now</button>
             </Link>
           </div>
         )}
-        {img === "img2" && ( 
-        <div className='sliding-img img2'>
-           <h2 className='slogan'>
-            Get the modern tech across your brain,<br/>
-            Explore series of blogs and articles here!
+        {img === "img2" && (
+          <div className='sliding-img img2'>
+            <h2 className='slogan'>
+              Get the modern tech across your brain,
+              <br />
+              Explore series of blogs and articles here!
             </h2>
-            <Link to='/products'>
+            <a
+              href='https://precodes.netlify.app/blogs.html'
+              target='_blank'
+              rel='noreferrer'
+            >
               <button className='btn-main btn'>Read Now</button>
-            </Link>
+            </a>
           </div>
         )}
         <button
@@ -51,11 +57,15 @@ export const Home = () => {
 
       <h2 className='center-txt'>Explore More!!</h2>
       <div className='categories-home'>
-        <Link to='/'>
+        <a
+          href='https://precodes.netlify.app/blogs.html'
+          target='_blank'
+          rel='noreferrer'
+        >
           <div className='card-category cat-img1'>
             <h3>View Latest Articles & Blogs</h3>
           </div>
-        </Link>
+        </a>
         <Link to='/courses'>
           <div className='card-category cat-img2'>
             <h3>View Courses</h3>

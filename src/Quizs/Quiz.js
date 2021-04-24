@@ -55,23 +55,32 @@ export const Quiz = () => {
 
   return (
     <div>
-      <h3>Quizes</h3>
+      <h3 className='quiz-heading'>
+        Quizes - Solve your quiz to get eduKit E-Certificate
+      </h3>
 
-      <div>
+      <div className='quizes'>
         {categories.map((category) => {
           return category === "Motivational" ? null : (
-            <div>
+            <div className='card card-take-quiz'>
               <li className='category' key={category}>
                 <h3>{category}</h3>
                 {final.map((cat) => {
                   return cat === category ? (
                     <Link to={`${category}`}>
-                      <button>Take Quiz</button>
+                      <button className='btn btn-main'>Take Quiz</button>
                     </Link>
                   ) : (
                     <div></div>
                   );
                 })}
+                {/* {!objRes ? (
+                  <div>
+                    You can only solve quiz once the course is completed
+                  </div>
+                ) : (
+                  <div>You can start your quiz</div>
+                )} */}
               </li>
             </div>
           );
