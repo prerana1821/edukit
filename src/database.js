@@ -229,7 +229,6 @@ export const data = [
   {
     id: "NbTrGcz4DW8",
     url: "https://www.youtube.com/embed/NbTrGcz4DW8?mute=0",
-    name: "3 CAREER STRATEGIES That Will Change Your Future",
     thumbnail:
       "https://i.ytimg.com/vi/0sSYmRImgRY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB86sXL8v-AGoSy8mAWI0d5zjd2ww",
     name: "React-Click Events",
@@ -357,7 +356,7 @@ export const data = [
     id: "kxBWcPJfo",
     url: "https://www.youtube.com/embed/kxBWcPJfo?mute=0",
     thumbnail:
-      "https://i.ytimg.com/vi/E74_WZpjeKA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDuUkgjL6lWTX-rHqixEagLU0eV-w",
+      "https://i.ytimg.com/vi/V-kxBWcPJfo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDQj5I2m5t9na2wy2lF8ZvT5EwRAQ",
     name: "Vue JS-The Composition API (part 1)",
     date: "14 Dec 2020",
     category: "VueJS",
@@ -451,5 +450,123 @@ export const data = [
     name: "Laravel 6-Route Parameters (wildcards)",
     date: "14 Feb 2020",
     category: "Laravel-6",
+  },
+  {
+    id: "kdXa4J_lKcY",
+    url: "https://www.youtube.com/embed/kdXa4J_lKcY?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/an_webp/kdXa4J_lKcY/mqdefault_6s.webp?du=3000&sqp=CMjJkYQG&rs=AOn4CLA-KEmbMRCMpQhJ1YTx2HO7nBcaMQ",
+    name:
+      "TOP 10 MOTIVATIONAL STORIES - By Sandeep Maheshwari | Compilation of Best Stories in Hindi",
+    date: "21 Jan 2021",
+    category: "Motivational",
+  },
+  {
+    id: "8bQZewxW440",
+    url: "https://www.youtube.com/embed/8bQZewxW440?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/8bQZewxW440/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDnup_ECUbNCqlCnpSMgywLi66TQ",
+    name:
+      "Proven Methods of Success | Mind Blowing Stories 🤯| Dr Vivek Bindra",
+    date: "4 Apr 2021",
+    category: "Motivational",
+  },
+
+  {
+    id: "96iaZxKRmKg",
+    url: "https://www.youtube.com/embed/96iaZxKRmKg?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/96iaZxKRmKg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCgp7_musGBwRdU4oNsBPplPfPvNQ",
+    name:
+      "LISTEN TO THIS EVERY NIGHT Before You Sleep | Peaceful Night Affirmations By Sandeep Maheshwari",
+    date: "14 Feb 2020",
+    category: "Motivational",
+  },
+  {
+    id: "RwxC5J8LI4Q",
+    url: "https://www.youtube.com/embed/RwxC5J8LI4Q?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/an_webp/RwxC5J8LI4Q/mqdefault_6s.webp?du=3000&sqp=CITHkYQG&rs=AOn4CLCCCWt3Lq_XNCk8Ks0N9cON0nIXNg",
+    name:
+      "BEST MOTIVATIONAL VIDEO For Students - By Sandeep Maheshwari I POWER OF FOCUS",
+    date: "2 Apr 2015",
+    category: "Motivational",
+  },
+
+  {
+    id: "R8OFOURSZZA",
+    url: "https://www.youtube.com/embed/R8OFOURSZZA?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/R8OFOURSZZA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCGOlAiTBKdlnD6nlgfELGTYeRdHw",
+    name: "Addiction To Education (पढ़ाई की लत) By Sandeep Maheshwariwc",
+    date: "31 Oct 2018",
+    category: "Motivational",
+  },
+
+  {
+    id: "MBOdc4a8S0c",
+    url: "https://www.youtube.com/embed/MBOdc4a8S0c?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/an_webp/MBOdc4a8S0c/mqdefault_6s.webp?du=3000&sqp=CIm_kYQG&rs=AOn4CLDZ7ZzT0rpIti_jNRL-TagjQ9Lqmw",
+    name:
+      "4 Rules to SUCCESS by Dr APJ ABDUL KALAM | Hindi Motivational Video | 4 Principles for STUDENTS",
+    date: "22 Apr 2021",
+    category: "Motivational",
+  },
+  {
+    id: "LTGH1ZnZ_08",
+    url: "https://www.youtube.com/embed/LTGH1ZnZ_08?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/LTGH1ZnZ_08/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDreFRmLHC1kMFW-5XO0p1hVC3TjQ",
+    name: "SABSE BADA MOTIVATION - By Sandeep Maheshwari",
+    date: "16 Jan 2019",
+    category: "Motivational",
+  },
+  {
+    id: "t1XCzWlYWeA",
+    url: "https://www.youtube.com/embed/AwRfvtCpdiQ?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/t1XCzWlYWeA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATpkpXjVEmIUTpjfvgpi2Yk0or7A",
+    name: "IT WILL GIVE YOU GOOSEBUMPS - Elon musk Motivational video",
+    date: "5 Feb 2021",
+    category: "Motivational",
+  },
+  {
+    id: "AwRfvtCpdiQ",
+    url: "https://www.youtube.com/embed/AwRfvtCpdiQ?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/AwRfvtCpdiQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD3hzRBGLogH0x1O513HnjLywRtSA",
+    name: "Don't Waste Your Time - By Sandeep Maheshwari I Hindi",
+    date: "16 Jan 2019",
+    category: "Motivational",
+  },
+
+  {
+    id: "Dws4-ZhcutU",
+    url: "https://www.youtube.com/embed/Dws4-ZhcutU?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/Dws4-ZhcutU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7q6pa9SBRzcTl6Et6_UBI6GlHHA",
+    name: "BELIEVE IN YOURSELF With Sandeep Maheshwari",
+    date: "30 Mar 2021",
+    category: "Motivational",
+  },
+  {
+    id: "WFjDacvpFaY",
+    url: "https://www.youtube.com/embed/WFjDacvpFaY?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/WFjDacvpFaY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCh3eNRyCI7PMtZOyzySQ3d4v8NZg",
+    name:
+      "Akshay Kumar Best Motivational Speech for Students (ft. Akshay Kumar) | Akshay Kumar Motivation",
+    date: "11 Oct 2020",
+    category: "Motivational",
+  },
+  {
+    id: "PgluKyEwuoE",
+    url: "https://www.youtube.com/embed/PgluKyEwuoE?mute=0",
+    thumbnail:
+      "https://i.ytimg.com/vi/PgluKyEwuoE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBs7xGeetuUG9_yHtxDpezzFL8g9g",
+    name: "Khud Ko Sahi Direction Dena Seekho - By Sandeep Maheshwari",
+    date: "9 Aug 2018",
+    category: "Motivational",
   },
 ];
