@@ -50,13 +50,14 @@
   grid-gap: 1rem;
   gap: 1rem;
   margin-right: 5rem;
+  margin-left: 4rem;
 }
 
 .search-txt {
   padding: 0.6rem 1rem;
   border-radius: 2rem;
   font-size: inherit;
-  width: 490px;
+  width: 350px;
   outline: var(--dk-pink);
   border: 2px solid var(--dk-pink);
 }
