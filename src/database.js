@@ -4,19 +4,17 @@ export const data = [
     url: "https://www.youtube.com/embed/1ukSR1GRtMU?mute=0",
     thumbnail:
       "https://i.ytimg.com/vi/1ukSR1GRtMU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDIzRaSKoo_53eCjqS711-It_B6FA",
-    name:
-      "Flutter-Intro & Setup",
+    name: "Flutter-Intro & Setup",
     date: "21 Aug 2019",
     category: "Flutter",
   },
-  
+
   {
     id: "bKueYVtV0eA",
     url: "https://www.youtube.com/embed/bKueYVtV0eA?mute=0",
     thumbnail:
       "https://i.ytimg.com/vi/bKueYVtV0eA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAu7PnvXy-IzDz8h587O9YBB-0bhQ",
-    name:
-      "Flutter-Overview",
+    name: "Flutter-Overview",
     date: "21 Aug 2019",
     category: "Flutter",
   },
@@ -25,8 +23,7 @@ export const data = [
     url: "https://www.youtube.com/embed/FLQ-Vhw1NYQ?mute=0",
     thumbnail:
       "https://i.ytimg.com/vi/FLQ-Vhw1NYQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBGCGJA8-EILA8fvl4ARTK7L9xqKg",
-    name:
-      "Flutter-Dart Primer",
+    name: "Flutter-Dart Primer",
     date: "21 Aug 2019",
     category: "Flutter",
   },
@@ -189,7 +186,7 @@ export const data = [
     url: "https://www.youtube.com/embed/j942wKiXFu8?mute=0",
     thumbnail:
       "https://i.ytimg.com/vi/j942wKiXFu8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDdmHAmG2KaKbE2V9472HtKxNZfdQ",
-      name: "React-Introduction",
+    name: "React-Introduction",
     date: "21 Dec 2020",
     category: "React",
   },
@@ -198,8 +195,7 @@ export const data = [
     url: "https://www.youtube.com/embed/kVeOpcw4GWY?mute=0",
     thumbnail:
       "https://i.ytimg.com/vi/kVeOpcw4GWY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBW9FvYdCo7JRD-i3WKA0jIEr_mWQ",
-    name:
-      "React-Creating a React Application",
+    name: "React-Creating a React Application",
     date: "21 Dec 2020",
     category: "React",
   },
@@ -236,7 +232,7 @@ export const data = [
     name: "3 CAREER STRATEGIES That Will Change Your Future",
     thumbnail:
       "https://i.ytimg.com/vi/0sSYmRImgRY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB86sXL8v-AGoSy8mAWI0d5zjd2ww",
-      name: "React-Click Events",
+    name: "React-Click Events",
     date: "29 Dec 2020",
     category: "React",
   },
@@ -371,9 +367,9 @@ export const data = [
     url: "https://www.youtube.com/embed/zckH4xalOns?mute=0",
     thumbnail:
       "https://i.ytimg.com/vi/zckH4xalOns/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDJXKThgJFFO5FlK7y3WcLltqdIGg",
-    name: "Laravel 6- Introduction",
+    name: "Laravel 6 - Introduction",
     date: "5 Feb 2020",
-    category: "Laravel 6",
+    category: "Laravel-6",
   },
   {
     id: "xevIxUQ1SH4",
@@ -382,7 +378,7 @@ export const data = [
       "https://i.ytimg.com/vi/E74_WZpjeKA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDuUkgjL6lWTX-rHqixEagLU0eV-w",
     name: "Laravel 6-Laravel Basics (Routes, Views)",
     date: "5 Feb 2020",
-    category: "Laravel 6",
+    category: "Laravel-6",
   },
   {
     id: "ub2PdzJqFXg",
@@ -391,7 +387,7 @@ export const data = [
       "https://i.ytimg.com/vi/xevIxUQ1SH4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDgDPQIyHER3RvYPLRm86KNPQgguA",
     name: "Laravel 6- Passing Data to Views",
     date: "7 Feb 2020",
-    category: "Laravel 6",
+    category: "Laravel-6",
   },
   {
     id: "pQ2vxa4_f2w",
@@ -400,7 +396,7 @@ export const data = [
       "https://i.ytimg.com/vi/ub2PdzJqFXg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAlwIBx2myJ0lMGfe0ZwtjF-dpIwQ",
     name: "Laravel 6-Blade Basics",
     date: "7 Feb 2020",
-    category: "Laravel 6",
+    category: "Laravel-6",
   },
   {
     id: "Po1i6BYG84c",
@@ -409,7 +405,7 @@ export const data = [
       "https://i.ytimg.com/vi/pQ2vxa4_f2w/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAC631c_MwZGFB8jRy80mrcujgP_g",
     name: "Laravel 6- Blade Loops",
     date: "10 Feb 2020",
-    category: "Laravel 6",
+    category: "Laravel-6",
   },
   {
     id: "a4sjNWEStuM",
@@ -418,7 +414,7 @@ export const data = [
       "https://i.ytimg.com/vi/Po1i6BYG84c/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDeM4F9MQbQzNy2NBvNwdbb42zNKQ",
     name: "Laravel 6- Layout Files",
     date: "10 Feb 2020",
-    category: "Laravel 6",
+    category: "Laravel-6",
   },
   {
     id: "E74_WZpjeKA",
@@ -427,7 +423,7 @@ export const data = [
       "https://i.ytimg.com/vi/a4sjNWEStuM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDu-QByqwBVsdBZ_OOUhnXXf-gj5g",
     name: "Laravel 6-Installing Laravel",
     date: "5 Feb 2020",
-    category: "Laravel 6",
+    category: "Laravel-6",
   },
   {
     id: "LpJqxx5pNUk",
@@ -436,7 +432,7 @@ export const data = [
       "https://i.ytimg.com/vi/LpJqxx5pNUk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBPTuXyHD3un0elE4RLV5GwKG5Zxw",
     name: "Laravel 6-CSS & Images",
     date: "12 Feb 2020",
-    category: "Laravel 6",
+    category: "Laravel-6",
   },
   {
     id: "wj_LrWgJioo",
@@ -445,7 +441,7 @@ export const data = [
       "https://i.ytimg.com/vi/wj_LrWgJioo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBrcVSmZGAKWAE4Ews9tXljozBgIw",
     name: "Laravel 6-Query Parameters",
     date: "12 Feb 2020",
-    category: "Laravel 6",
+    category: "Laravel-6",
   },
   {
     id: "tMYHo0BknQA",
@@ -454,8 +450,6 @@ export const data = [
       "https://i.ytimg.com/vi/tMYHo0BknQA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDMxtMojj1R2B8lUdaJ8a69fLYVXw",
     name: "Laravel 6-Route Parameters (wildcards)",
     date: "14 Feb 2020",
-    category: "Laravel 6",
+    category: "Laravel-6",
   },
-
-  
 ];

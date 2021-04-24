@@ -10,6 +10,11 @@ import { History } from "./History";
 import "./App.css";
 import { Quiz } from "./Quizs/Quiz";
 import { Home } from "./Home/Home";
+import FlutterQuiz from "./Quizs/flutterQuiz";
+import AngularQuiz from "./Quizs/angularQuiz";
+import ReactQuiz from "./Quizs/reactQuiz";
+import LaravelQuiz from "./Quizs/laravelQuiz";
+import VueQuiz from "./Quizs/vueQuiz";
 
 function App() {
   return (
@@ -26,6 +31,11 @@ function App() {
           <Route path='/history' element={<History />}></Route>
           <Route path='/liked-videos' element={<LikedVideos />}></Route>
           <Route path='/saved-videos' element={<SavedVideos />}></Route>
+          <Route path='quizes/Flutter' element={<FlutterQuiz />}></Route>
+          <Route path='quizes/AngularJS' element={<AngularQuiz />}></Route>
+          <Route path='quizes/React' element={<ReactQuiz />}></Route>
+          <Route path='quizes/Laravel-6' element={<LaravelQuiz />}></Route>
+          <Route path='quizes/VueJS' element={<VueQuiz />}></Route>
         </Routes>
         <a href='#top'>
           <div className='btn-top badge-av'>
