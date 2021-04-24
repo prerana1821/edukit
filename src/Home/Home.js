@@ -13,7 +13,7 @@ export const Home = () => {
             Exciting courses are waiting for you!!<br/>
             What are you waiting for?
             </h2>
-            <Link to='/products'>
+            <Link to='/courses'>
               <button className='btn-main btn'>Enroll Now</button>
             </Link>
           </div>
