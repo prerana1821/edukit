@@ -30,17 +30,11 @@
   position: relative;
 }
 
-.question-count {
-  margin-bottom: 20px;
-}
 
 .question-count span {
   font-size: 28px;
 }
 
-.question-text {
-  margin-bottom: 12px;
-}
 
 .timer-text {
   background: rgb(230, 153, 12);
@@ -50,13 +44,6 @@
   border: 5px solid rgb(255, 189, 67);
   border-radius: 15px;
   text-align: center;
-}
-
-.answer-section {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .btn {
@@ -116,3 +103,30 @@
 .btn svg {
   margin-right: 5px;
 } */
+
+.question-count {
+  margin: 1rem 0;
+}
+
+.question-text {
+  margin: 4rem 12rem;
+  line-height: 2.4rem;
+}
+
+.answer-section {
+  display: flex;
+  justify-content: center;
+  grid-gap: 2rem;
+  gap: 2rem;
+  margin: 3rem 0;
+  padding: 2rem;
+}
+
+.quiz-card {
+  opacity: 1;
+  background-color: var(--tertiary-color);
+  margin: 3rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: var(--tertiary-box-shadow);
+}

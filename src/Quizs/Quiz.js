@@ -44,7 +44,7 @@ export const Quiz = () => {
     const arr = [],
       obj = Object.keys(item);
     for (var x in obj) {
-      if (item[obj[x]] === 10) {
+      if (item[obj[x]] === 3) {
         arr.push(obj[x]);
       }
     }
@@ -59,7 +59,7 @@ export const Quiz = () => {
 
       <div>
         {categories.map((category) => {
-          return (
+          return category === "Motivational" ? null : (
             <div>
               <li className='category' key={category}>
                 <h3>{category}</h3>
