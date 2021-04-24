@@ -27,12 +27,13 @@ export const PlayList = () => {
 
         <button
           className='btn pink'
-          onClick={() =>
-            playListDispatch({
+          onClick={() => {
+            setCreatePlayList("");
+            return playListDispatch({
               type: "CREATE_PLAYLIST",
               payload: createPlayList,
-            })
-          }
+            });
+          }}
         >
           Save
         </button>

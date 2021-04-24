@@ -35,7 +35,7 @@ export const DataProvider = ({ children }) => {
   const getLatestData = (videoList, latest) => {
     if (latest) {
       return videoList.sort(function (a, b) {
-        return new Date(b.date) - new Date(a.date);
+        return new Date(a.date) - new Date(b.date);
       });
     } else {
       return videoList.sort(() => Math.random() - 0.5);

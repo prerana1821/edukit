@@ -14,7 +14,7 @@ export const Header = () => {
         <nav className='navbar'>
           <div className='logo'>
             <img
-              src="https://w7.pngwing.com/pngs/515/606/png-transparent-life-insurance-higher-education-school-course-company-life-purple-angle-violet.png"
+              src='https://w7.pngwing.com/pngs/515/606/png-transparent-life-insurance-higher-education-school-course-company-life-purple-angle-violet.png'
               alt='Logo'
             />
             <Link to='/'>
@@ -22,7 +22,30 @@ export const Header = () => {
             </Link>
           </div>
           <ul className={toggle ? "nav-menu" : "nav-menu active"}>
-             
+            <li className='nav-item'>
+              <NavLink
+                to='/'
+                end
+                activeStyle={{
+                  color: "var(--dk-pink)",
+                }}
+                className='nav-link'
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink
+                to='/courses'
+                end
+                activeStyle={{
+                  color: "var(--dk-pink)",
+                }}
+                className='nav-link'
+              >
+                Courses
+              </NavLink>
+            </li>
             <div className='search'>
               <div className='search-input'>
                 <input
@@ -52,22 +75,11 @@ export const Header = () => {
                     dispatch({ type: "CLEAR_SEARCH" });
                   }}
                 >
-                  Clear Search
+                  Clear
                 </button>
               )}
             </div>
-            <li className='nav-item'>
-              <NavLink
-                to='/'
-                end
-                activeStyle={{
-                  color: "var(--dk-pink)",
-                }}
-                className='nav-link'
-              >
-                Home
-              </NavLink>
-            </li>
+
             <li className='nav-item'>
               <NavLink
                 className='nav-link'
@@ -79,7 +91,7 @@ export const Header = () => {
                 PlayLists
               </NavLink>
             </li>
-            
+
             <li className='nav-item'>
               <NavLink
                 className='nav-link'
@@ -122,7 +134,7 @@ export const Header = () => {
                   color: "var(--dk-pink)",
                 }}
               >
-                Quiz
+                Quizes
               </NavLink>
             </li>
           </ul>
