@@ -156,6 +156,9 @@ export default function AngularQuiz() {
               </button>
             ))}
           </div>
+          <div>
+            <p>You have to select final answer only ,once selected you cannot change it.</p>
+            </div>
         </>
       )}
     </motion.div>

@@ -7,6 +7,10 @@
   line-height: 2.4rem;
 }
 
+.btn {
+  margin-bottom: 1rem;
+}
+
 .answer-section {
   display: flex;
   justify-content: center;
@@ -14,6 +18,10 @@
   gap: 2rem;
   margin: 3rem 0;
   padding: 2rem;
+}
+
+.category {
+  margin-bottom: 1rem;
 }
 
 .quiz-card {
@@ -42,6 +50,7 @@
   width: 100%;
   text-align: center;
 }
+
 @media only screen and (max-width: 1350px) {
   .quizes {
     flex-direction: column;

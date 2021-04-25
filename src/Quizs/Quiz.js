@@ -70,18 +70,15 @@ export const Quiz = () => {
                     <Link to={`${category}`}>
                       <button className='btn btn-main'>Take Quiz</button>
                     </Link>
-                  ) : (
+                  ) : ( 
                     <div></div>
                   );
                 })}
-                {/* {!objRes ? (
                   <div>
                     You can only solve quiz once the course is completed
                   </div>
-                ) : (
-                  <div>You can start your quiz</div>
-                )} */}
               </li>
+
             </div>
           );
         })}
