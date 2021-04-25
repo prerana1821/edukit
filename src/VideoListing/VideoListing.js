@@ -1,5 +1,6 @@
 import { useLikeSave, useData } from "../Context";
 import { Link } from "react-router-dom";
+import {motion} from "framer-motion";
 import "./VideoListing.css";
 
 export const VideoListing = () => {
@@ -15,7 +16,9 @@ export const VideoListing = () => {
   };
 
   return (
-    <div>
+    <motion.div initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}>
       <div className='filters'>
         <div>
           <ul className='categories'>
@@ -94,6 +97,6 @@ export const VideoListing = () => {
           );
         })}
       </div>
-    </div>
+    </motion.div>
   );
 };

@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import { useLikeSave, usePlayList, useData } from "../Context";
 import { useState } from "react";
+import {motion} from "framer-motion";
 import Markdown from "react-remarkable";
 import "./Video.css";
 
@@ -31,7 +32,9 @@ export const Video = () => {
   };
 
   return (
-    <div>
+    <motion.div initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}>
       <div className='video-notes'>
         <div className='video'>
           <iframe
@@ -194,7 +197,7 @@ export const Video = () => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

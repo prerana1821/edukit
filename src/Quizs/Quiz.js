@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useData, useLikeSave } from "../Context";
+import { motion } from "framer-motion";
 
 export const Quiz = () => {
   const { data } = useData();
@@ -55,7 +56,10 @@ export const Quiz = () => {
 
   return (
     <>
-      <h3 className='quiz-heading'>
+    <motion.div  initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}>
+      <h3 className='quiz-heading' >
         Quizes - Solve your quiz to get eduKit E-Certificate
       </h3>
 
@@ -70,22 +74,20 @@ export const Quiz = () => {
                     <Link to={`${category}`}>
                       <button className='btn btn-main'>Take Quiz</button>
                     </Link>
-                  ) : (
+                  ) : ( 
                     <div></div>
                   );
                 })}
-                {/* {!objRes ? (
-                  <div>
+                  <div className='ac'>
                     You can only solve quiz once the course is completed
                   </div>
-                ) : (
-                  <div>You can start your quiz</div>
-                )} */}
               </li>
+
             </div>
           );
         })}
       </div>
+      </motion.div>
     </>
   );
 };

@@ -131,7 +131,10 @@ export default function AngularQuiz() {
             You scored {score} out of {questions.length}
           </div>
           <div className='score'>
-            <a href='https://certificate-angular.omjadhav3714.repl.co/' className='bt'>
+            <a
+              href='https://certificate-angular.omjadhav3714.repl.co/'
+              className='bt'
+            >
               Get Certificate
             </a>
           </div>
@@ -149,12 +152,18 @@ export default function AngularQuiz() {
           <div className='answer-section'>
             {questions[currentQuestion].answerOptions.map((answerOption) => (
               <button
-                className='btn btn-main'
+                className='btn btn-main mb'
                 onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}
               >
                 {answerOption.answerText}
               </button>
             ))}
+          </div>
+          <div>
+            <p>
+              You have to select final answer only ,once selected you cannot
+              change it.
+            </p>
           </div>
         </>
       )}
