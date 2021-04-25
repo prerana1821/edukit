@@ -1,11 +1,14 @@
 import { useLikeSave } from "../Context";
 import { Link } from "react-router-dom";
+import {motion} from  "framer-motion";
 
 export const LikedVideos = () => {
   const { likeSaveState, likeSaveDispatch } = useLikeSave();
 
   return (
-    <div>
+    <motion.div initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}>
       {likeSaveState.likedVideos.length === 0 ? (
         <div className='card empty-card'>
           <h3>No Liked Videos</h3>
@@ -48,6 +51,6 @@ export const LikedVideos = () => {
           })}
         </div>
       )}
-    </div>
+    </motion.div>
   );
 };

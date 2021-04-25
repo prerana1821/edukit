@@ -1,12 +1,15 @@
 import { useLikeSave } from "../Context";
 import { Link } from "react-router-dom";
+import {motion} from "framer-motion";
 import "./SavedVideos.css";
 
 export const SavedVideos = () => {
   const { likeSaveState, likeSaveDispatch } = useLikeSave();
 
   return (
-    <div>
+    <motion.div initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}>
       {likeSaveState.savedVideos.length === 0 ? (
         <div className='card empty-card'>
           <h3>No Saved Videos</h3>
@@ -54,6 +57,6 @@ export const SavedVideos = () => {
           })}
         </div>
       )}
-    </div>
+    </motion.div>
   );
 };

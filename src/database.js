@@ -486,7 +486,7 @@ export const data = [
     id: "RwxC5J8LI4Q",
     url: "https://www.youtube.com/embed/RwxC5J8LI4Q?mute=0",
     thumbnail:
-      "https://i.ytimg.com/an_webp/RwxC5J8LI4Q/mqdefault_6s.webp?du=3000&sqp=CPCNk4QG&rs=AOn4CLCfY0q3XkJJF2HmbSHDycUNXN9EEQ",
+      "https://i.ytimg.com/vi/RwxC5J8LI4Q/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3ytvQifNifiyhS7GcG-fbG2_RiA",
     name:
       "BEST MOTIVATIONAL VIDEO For Students - By Sandeep Maheshwari I POWER OF FOCUS",
     date: "2 Apr 2015",
@@ -507,7 +507,7 @@ export const data = [
     id: "MBOdc4a8S0c",
     url: "https://www.youtube.com/embed/MBOdc4a8S0c?mute=0",
     thumbnail:
-      "https://i.ytimg.com/an_webp/MBOdc4a8S0c/mqdefault_6s.webp?du=3000&sqp=CJydk4QG&rs=AOn4CLCRLczj4XbSRV6dSxBKYAwRFSfEng",
+      "https://i.ytimg.com/vi/MBOdc4a8S0c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6UkxMJ3IOdotWnyfxz2FwxROeMg",
     name:
       "4 Rules to SUCCESS by Dr APJ ABDUL KALAM | Hindi Motivational Video | 4 Principles for STUDENTS",
     date: "22 Apr 2021",
