@@ -1,7 +1,7 @@
 import { useParams } from "react-router";
 import { useLikeSave, usePlayList, useData } from "../Context";
 import { useState } from "react";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import Markdown from "react-remarkable";
 import "./Video.css";
 
@@ -32,9 +32,11 @@ export const Video = () => {
   };
 
   return (
-    <motion.div initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    exit={{ opacity: 0 }}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className='video-notes'>
         <div className='video'>
           <iframe
@@ -88,18 +90,6 @@ export const Video = () => {
                           payload: { videoId: videoId, note: inputText },
                         })
                       );
-                  // : likeSaveState.notes.find((item) => {
-                  //     console.log(item);
-                  //     return item.videoId === videoId
-                  //       ? likeSaveDispatch({
-                  //           type: "SAVE_NOTE",
-                  //           payload: { videoId: videoId, note: inputText },
-                  //         })
-                  //       : likeSaveDispatch({
-                  //           type: "ADD_NOTE",
-                  //           payload: { videoId: videoId, note: inputText },
-                  //         });
-                  //   });
                 }}
               >
                 {editNote ? "Save Note" : "Edit Note"}
@@ -200,34 +190,3 @@ export const Video = () => {
     </motion.div>
   );
 };
-
-// console.log("Hello");
-// return likeSaveState.notes.map((item) => {
-//   console.log("Hellllowww");
-//   return item.videoId === videoId
-//     ? likeSaveDispatch({
-//         type: "SAVE_NOTE",
-//         payload: { videoId: videoId, note: inputText },
-//       })
-//     : likeSaveDispatch({
-//         type: "ADD_NOTE",
-//         payload: { videoId: videoId, note: inputText },
-//       });
-// });
-// return likeSaveState.notes.reduce(
-//   (acc, value) => {
-//     return value.videoId === video.videoId
-//       ? likeSaveDispatch({
-//           type: "SAVE_NOTE",
-//           payload: {
-//             videoId: video.videoId,
-//             note: inputText,
-//           },
-//         })
-//       : acc;
-//   },
-//   likeSaveDispatch({
-//     type: "ADD_NOTE",
-//     payload: { videoId: videoId, note: inputText },
-//   })
-// );

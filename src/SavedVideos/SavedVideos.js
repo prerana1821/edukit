@@ -1,27 +1,24 @@
 import { useLikeSave } from "../Context";
 import { Link } from "react-router-dom";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import "./SavedVideos.css";
 
 export const SavedVideos = () => {
   const { likeSaveState, likeSaveDispatch } = useLikeSave();
 
   return (
-    <motion.div initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    exit={{ opacity: 0 }}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       {likeSaveState.savedVideos.length === 0 ? (
         <div className='card empty-card'>
           <h3>No Saved Videos</h3>
           <hr className='hr' />
           <p className='mg-1'>You haven't saved any videos yet!</p>
           <Link to='/'>
-            <button
-              // onClick={() => changeRoute("products")}
-              className='btn primary pink btn-shop'
-            >
-              Watch Now
-            </button>
+            <button className='btn primary pink btn-shop'>Watch Now</button>
           </Link>
         </div>
       ) : (

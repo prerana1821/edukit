@@ -50,8 +50,6 @@ export const PlaylistProvider = ({ children }) => {
     "My Learnings": [],
   });
 
-  // console.log(playListState);
-
   return (
     <PlaylistContext.Provider value={{ playListState, playListDispatch }}>
       {children}

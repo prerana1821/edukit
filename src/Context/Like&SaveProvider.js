@@ -31,42 +31,15 @@ export const LikeSaveProvider = ({ children }) => {
           }),
         };
       case "ADD_NOTE":
-        console.log("Hello");
         return {
           ...state,
-          notes:
-            //  state.notes.some((ele) => ele.id === action.payload.videoId)
-            //   ? state.notes
-            //   : state.notes.concat({
-            //       id: v4(),
-            //       videoId: action.payload.videoId,
-            //       note: action.payload.note,
-            //     }),
-            // notes: state.notes.map((item) => {
-            //   return item.id === action.payload.id
-            //     ? item
-            //     : {
-            //         id: v4(),
-            //         videoId: action.payload.videoId,
-            //         note: action.payload.note,
-            //       };
-            // }),
-            state.notes.concat({
-              id: v4(),
-              videoId: action.payload.videoId,
-              note: action.payload.note,
-            }),
+          notes: state.notes.concat({
+            id: v4(),
+            videoId: action.payload.videoId,
+            note: action.payload.note,
+          }),
         };
       case "SAVE_NOTE":
-        // console.log("Hii");
-        // return {
-        //   ...state,
-        //   notes: state.notes.reduce((acc, item) => {
-        //     return item.videoId === action.payload.videoId
-        //       ? { ...item, note: action.payload.note }
-        //       : acc;
-        //   }, {}),
-        // };
         return {
           ...state,
           notes: state.notes.map((item) => {
@@ -106,8 +79,6 @@ export const LikeSaveProvider = ({ children }) => {
     history: [],
     notes: [],
   });
-
-  console.log(likeSaveState);
 
   return (
     <LikeSaveContext.Provider value={{ likeSaveState, likeSaveDispatch }}>

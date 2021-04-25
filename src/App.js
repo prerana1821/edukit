@@ -6,7 +6,6 @@ import { SavedVideos } from "./SavedVideos";
 import { PlayList } from "./Playlist";
 import { Video } from "./Videos";
 import { History } from "./History";
-// import { SideBar } from "./Sidebar";
 import "./App.css";
 import { Quiz } from "./Quizs/Quiz";
 import { Home } from "./Home/Home";
@@ -15,13 +14,12 @@ import AngularQuiz from "./Quizs/angularQuiz";
 import ReactQuiz from "./Quizs/reactQuiz";
 import LaravelQuiz from "./Quizs/laravelQuiz";
 import VueQuiz from "./Quizs/vueQuiz";
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 function App() {
   return (
     <div className='App' id='top'>
       <Header />
       <div className='main'>
-        {/* <SideBar /> */}
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/courses' element={<VideoListing />}></Route>
