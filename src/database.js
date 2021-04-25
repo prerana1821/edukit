@@ -110,7 +110,7 @@ export const data = [
   },
   {
     id: "FlbtIHcGnPE",
-    url: "https://www.youtube.com/embedFlbtIHcGnPE?mute=0",
+    url: "https://www.youtube.com/embed/FlbtIHcGnPE?mute=0",
     thumbnail:
       "https://i.ytimg.com/vi/FlbtIHcGnPE/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB7rkz79rckmamuwa9LNTGjY6hPZw",
     name: "AngularJS-Downloading AngularJS",
@@ -455,7 +455,7 @@ export const data = [
     id: "kdXa4J_lKcY",
     url: "https://www.youtube.com/embed/kdXa4J_lKcY?mute=0",
     thumbnail:
-      "https://i.ytimg.com/an_webp/kdXa4J_lKcY/mqdefault_6s.webp?du=3000&sqp=CMjJkYQG&rs=AOn4CLA-KEmbMRCMpQhJ1YTx2HO7nBcaMQ",
+      "https://i.ytimg.com/vi/kdXa4J_lKcY/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAw23RDYnN6NPMOKxeqaw1WFUGk7Q",
     name:
       "TOP 10 MOTIVATIONAL STORIES - By Sandeep Maheshwari | Compilation of Best Stories in Hindi",
     date: "21 Jan 2021",
@@ -486,7 +486,7 @@ export const data = [
     id: "RwxC5J8LI4Q",
     url: "https://www.youtube.com/embed/RwxC5J8LI4Q?mute=0",
     thumbnail:
-      "https://i.ytimg.com/an_webp/RwxC5J8LI4Q/mqdefault_6s.webp?du=3000&sqp=CITHkYQG&rs=AOn4CLCCCWt3Lq_XNCk8Ks0N9cON0nIXNg",
+      "https://i.ytimg.com/an_webp/RwxC5J8LI4Q/mqdefault_6s.webp?du=3000&sqp=CPCNk4QG&rs=AOn4CLCfY0q3XkJJF2HmbSHDycUNXN9EEQ",
     name:
       "BEST MOTIVATIONAL VIDEO For Students - By Sandeep Maheshwari I POWER OF FOCUS",
     date: "2 Apr 2015",
@@ -507,7 +507,7 @@ export const data = [
     id: "MBOdc4a8S0c",
     url: "https://www.youtube.com/embed/MBOdc4a8S0c?mute=0",
     thumbnail:
-      "https://i.ytimg.com/an_webp/MBOdc4a8S0c/mqdefault_6s.webp?du=3000&sqp=CIm_kYQG&rs=AOn4CLDZ7ZzT0rpIti_jNRL-TagjQ9Lqmw",
+      "https://i.ytimg.com/an_webp/MBOdc4a8S0c/mqdefault_6s.webp?du=3000&sqp=CJydk4QG&rs=AOn4CLCRLczj4XbSRV6dSxBKYAwRFSfEng",
     name:
       "4 Rules to SUCCESS by Dr APJ ABDUL KALAM | Hindi Motivational Video | 4 Principles for STUDENTS",
     date: "22 Apr 2021",

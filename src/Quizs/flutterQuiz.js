@@ -132,12 +132,23 @@ export default function FlutterQuiz() {
         {showScore ? (
           <div>
             <div className='score-section'>
-              You scored {score} out of {questions.length}
+              <h2>
+                You scored {score} out of {questions.length}
+              </h2>
             </div>
             <div className='score'>
-              <a href='https://certificate-flutter.omjadhav3714.repl.co/' className='bt'>
-                Get Certificate
-              </a>
+              {score > 7 ? (
+                <a
+                  href='https://certificate-flutter.omjadhav3714.repl.co/'
+                  className='bt'
+                >
+                  <button className='btn btn-main'>Get Certificate</button>
+                </a>
+              ) : (
+                <h3>
+                  Try Again! You need to score alteast 7 to get the certificate
+                </h3>
+              )}
             </div>
           </div>
         ) : (

@@ -54,7 +54,7 @@ export const Quiz = () => {
   const final = getKey(objRes);
 
   return (
-    <div>
+    <>
       <h3 className='quiz-heading'>
         Quizes - Solve your quiz to get eduKit E-Certificate
       </h3>
@@ -83,6 +83,6 @@ export const Quiz = () => {
           );
         })}
       </div>
-    </div>
+    </>
   );
 };
