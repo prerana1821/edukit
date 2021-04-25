@@ -7,7 +7,7 @@
   line-height: 2.4rem;
 }
 
-.btn {
+.mb {
   margin-bottom: 1rem;
 }
 
@@ -54,5 +54,27 @@
 @media only screen and (max-width: 1350px) {
   .quizes {
     flex-direction: column;
+  }
+
+  .quiz-card {
+    margin: 2rem;
+    padding: 1rem;
+  }
+
+  .question-count {
+    margin: 1rem 0;
+  }
+  .question-text {
+    margin: 0;
+  }
+
+  .answer-section {
+    justify-content: center;
+    grid-gap: 2rem;
+    gap: 1rem;
+    margin: 2rem 0;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0;
   }
 }
