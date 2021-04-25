@@ -32,12 +32,12 @@ export const PlaylistProvider = ({ children }) => {
         // break;
         return {
           ...state,
-          [action.payload
-            .selectedPlayList]: action.payload.selectedPlayList.filter(
-            (item) => {
-              return item.id !== action.payload.video.id;
-            }
-          ),
+          // [action.payload
+          //   .selectedPlayList]: action.payload.selectedPlayList.filter(
+          //   (item) => {
+          //     return item.id !== action.payload.video.id;
+          //   }
+          // ),
         };
       default:
         console.log("Something went wrong");
