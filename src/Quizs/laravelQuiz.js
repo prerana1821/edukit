@@ -132,7 +132,10 @@ export default function LaravelQuiz() {
             You scored {score} out of {questions.length}
           </div>
           <div className='score'>
-            <a href='https://certificate-laravel.omjadhav3714.repl.co/' className='bt'>
+            <a
+              href='https://certificate-laravel.omjadhav3714.repl.co/'
+              className='bt'
+            >
               Get Certificate
             </a>
           </div>
@@ -150,7 +153,7 @@ export default function LaravelQuiz() {
           <div className='answer-section'>
             {questions[currentQuestion].answerOptions.map((answerOption) => (
               <button
-                className='btn btn-main'
+                className='btn btn-main mb'
                 onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}
               >
                 {answerOption.answerText}
@@ -158,8 +161,11 @@ export default function LaravelQuiz() {
             ))}
           </div>
           <div>
-            <p>You have to select final answer only ,once selected you cannot change it.</p>
-            </div>
+            <p>
+              You have to select final answer only ,once selected you cannot
+              change it.
+            </p>
+          </div>
         </>
       )}
     </motion.div>

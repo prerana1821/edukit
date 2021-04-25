@@ -133,7 +133,10 @@ export default function VueQuiz() {
             You scored {score} out of {questions.length}
           </div>
           <div className='score'>
-            <a href='https://certificate-vue.omjadhav3714.repl.co/' className='bt'>
+            <a
+              href='https://certificate-vue.omjadhav3714.repl.co/'
+              className='bt'
+            >
               Get Certificate
             </a>
           </div>
@@ -151,7 +154,7 @@ export default function VueQuiz() {
           <div className='answer-section'>
             {questions[currentQuestion].answerOptions.map((answerOption) => (
               <button
-                className='btn btn-main'
+                className='btn btn-main mb'
                 onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}
               >
                 {answerOption.answerText}
@@ -159,8 +162,11 @@ export default function VueQuiz() {
             ))}
           </div>
           <div>
-            <p>You have to select final answer only ,once selected you cannot change it.</p>
-            </div>
+            <p>
+              You have to select final answer only ,once selected you cannot
+              change it.
+            </p>
+          </div>
         </>
       )}
     </motion.div>

@@ -164,7 +164,7 @@ export default function FlutterQuiz() {
             <div className='answer-section'>
               {questions[currentQuestion].answerOptions.map((answerOption) => (
                 <button
-                  className='btn btn-main'
+                  className='btn btn-main mb'
                   onClick={() =>
                     handleAnswerOptionClick(answerOption.isCorrect)
                   }
@@ -174,7 +174,10 @@ export default function FlutterQuiz() {
               ))}
             </div>
             <div>
-            <p>You have to select final answer only ,once selected you cannot change it.</p>
+              <p>
+                You have to select final answer only ,once selected you cannot
+                change it.
+              </p>
             </div>
           </>
         )}
