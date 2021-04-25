@@ -66,3 +66,27 @@
   border-radius: 0.5rem;
   padding: 1rem;
 }
+
+@media only screen and (max-width: 1350px) {
+  .video-notes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem auto;
+  }
+  .video {
+    width: 90%;
+  }
+
+  .video-desc-details {
+    flex-direction: column;
+  }
+
+  .choose-playlist > select {
+    margin: 0;
+  }
+
+  .video-desc-center {
+    width: 90%;
+  }
+}
