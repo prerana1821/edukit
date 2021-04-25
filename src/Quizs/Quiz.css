@@ -49,13 +49,10 @@
   margin: 0;
   width: 100%;
   text-align: center;
-<<<<<<< HEAD
 }
-=======
-}
+
 @media only screen and (max-width: 1350px) {
   .quizes {
     flex-direction: column;
   }
 }
->>>>>>> 4f2cfc9986ff9f3aad153c0b37adb31cf7fd968f
