@@ -100,3 +100,15 @@
   gap: 0.6rem;
   align-items: center;
 }
+
+@media only screen and (max-width: 1350px) {
+  .filters {
+    flex-direction: column;
+  }
+  .categories {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    display: -webkit-inline-box;
+  }
+}

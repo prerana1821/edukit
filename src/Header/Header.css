@@ -92,6 +92,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: inherit;
   padding: 1rem 1.5rem;
 }
 
