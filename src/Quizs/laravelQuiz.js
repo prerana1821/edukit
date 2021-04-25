@@ -132,12 +132,18 @@ export default function LaravelQuiz() {
             You scored {score} out of {questions.length}
           </div>
           <div className='score'>
-            <a
-              href='https://certificate-laravel.omjadhav3714.repl.co/'
-              className='bt'
-            >
-              Get Certificate
-            </a>
+          {score > 3 ? (
+                <a
+                  href='https://certificate-laravel.omjadhav3714.repl.co/'
+                  className='bt'
+                >
+                  <button className='btn btn-main'>Get Certificate</button>
+                </a>
+              ) : (
+                <h3>
+                  Try Again! You need to score alteast 3 to get the certificate
+                </h3>
+              )}
           </div>
         </div>
       ) : (

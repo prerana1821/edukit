@@ -15,7 +15,7 @@ import AngularQuiz from "./Quizs/angularQuiz";
 import ReactQuiz from "./Quizs/reactQuiz";
 import LaravelQuiz from "./Quizs/laravelQuiz";
 import VueQuiz from "./Quizs/vueQuiz";
-
+import {Link} from "react-scroll";
 function App() {
   return (
     <div className='App' id='top'>
@@ -37,13 +37,13 @@ function App() {
           <Route path='quizes/Laravel-6' element={<LaravelQuiz />}></Route>
           <Route path='quizes/VueJS' element={<VueQuiz />}></Route>
         </Routes>
-        <a href='#top'>
+        <Link to='top' smooth={true} duration={500}>
           <div className='btn-top badge-av'>
             <div className='avatar avatar-top av-pink'>
               <i className='fas fa-lg  fa-arrow-up'></i>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   );

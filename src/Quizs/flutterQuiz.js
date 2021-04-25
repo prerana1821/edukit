@@ -137,7 +137,7 @@ export default function FlutterQuiz() {
               </h2>
             </div>
             <div className='score'>
-              {score > 7 ? (
+              {score > 3 ? (
                 <a
                   href='https://certificate-flutter.omjadhav3714.repl.co/'
                   className='bt'
@@ -146,7 +146,7 @@ export default function FlutterQuiz() {
                 </a>
               ) : (
                 <h3>
-                  Try Again! You need to score alteast 7 to get the certificate
+                  Try Again! You need to score alteast 3 to get the certificate
                 </h3>
               )}
             </div>
