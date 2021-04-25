@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import {motion} from "framer-motion";
 import { usePlayList } from "../Context";
 import "./PlayList.css";
 
@@ -15,7 +15,9 @@ export const PlayList = () => {
   const playListsArray = Object.keys(playListState);
 
   return (
-    <div className='showcase-playlist'>
+    <motion.div className='showcase-playlist' initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}>
       <div className='create-playlist'>
         <h3>Create New Playlist:</h3>
         <input
@@ -140,6 +142,6 @@ export const PlayList = () => {
           );
         })}
       </div>
-    </div>
+    </motion.div>
   );
 };

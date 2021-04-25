@@ -1,11 +1,14 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import {motion} from "framer-motion";
 
 export const Home = () => {
   const [img, setImg] = useState("img1");
   return (
-    <div className='home'>
+    <motion.div className='home' initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}>
       <div className='banner'>
         {img === "img1" && (
           <div className='sliding-img img1'>
@@ -107,6 +110,6 @@ export const Home = () => {
           </li>
         </ul>
       </footer>
-    </div>
+    </motion.div>
   );
 };
